@@ -13,7 +13,7 @@ After having installed your docker environment you can get the image using the d
 
 once the image is downloaded you can run it using the docker command
 
-    docker run -p 8080:8080 --name zeppelin -d yorek/zeppelin-sqlserver:development
+    docker run -p 8080:8080 --name zeppelin -d yorek/zeppelin-sqlserver:development ./bin/zeppelin.sh start
 
 after that you can use a browser to connect to your docker machine ip address to use Zeppelin. If you don't know such ip address you can get it using the following command
 
