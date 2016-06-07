@@ -27,5 +27,3 @@ RUN cp ./conf/zeppelin-site.xml.template ./conf/zeppelin-site.xml && \
 	cp ./conf/zeppelin-env.sh.template ./conf/zeppelin-env.sh
 
 EXPOSE 8080
-
-CMD ./bin/zeppelin.sh start
